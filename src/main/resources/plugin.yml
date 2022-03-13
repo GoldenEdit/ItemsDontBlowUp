@@ -1,0 +1,7 @@
+name: ItemsDontBlowUp
+version: '${project.version}'
+main: dev.goldenedit.itemsdontblowup.ItemsDontBlowUp
+api-version: 1.18
+authors: [ GoldenEdit ]
+description: Stop items from blowing up
+website: https://goldenedit.dev
