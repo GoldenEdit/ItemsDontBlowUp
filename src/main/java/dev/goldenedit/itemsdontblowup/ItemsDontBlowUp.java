@@ -13,7 +13,7 @@ public final class ItemsDontBlowUp extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        this.getLogger().info("ItemsDontBlowUP has started");
+        this.getLogger().info("ItemsDontBlowUp has started");
         this.getLogger().info("https://goldenedit.dev");
         this.getServer().getPluginManager().registerEvents(this, this);
 
@@ -27,10 +27,10 @@ public final class ItemsDontBlowUp extends JavaPlugin implements Listener {
                 && e.getCause() != EntityDamageEvent.DamageCause.ENTITY_EXPLOSION) {
             return;
         }
-        final Material type = ((Item) e.getEntity()).getItemStack().getType();
+//        final Material type = ((Item) e.getEntity()).getItemStack().getType();
 //        if (type != Material.YOUR_GODLY_MATERIAL) {
 //            return;
-//        }
+//        } // Could be used later on if a whitelist of items that can be deleted by explosions were to be added
         e.setCancelled(true);
     }
 
