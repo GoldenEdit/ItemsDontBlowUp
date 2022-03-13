@@ -14,6 +14,6 @@ Could be used for servers that want to:
 
 The plugin is made for `1.18.1`
 
-1. Download the latest release from the `Releases` tab
+1. Download the latest release from the (Releases)[https://github.com/GoldenEdit/ItemsDontBlowUp/releases/] tab
 2. Drag it into your `/plugins` folder
 3. Restart/reload your server
