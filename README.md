@@ -2,7 +2,7 @@
 
 ## About
 
-This plugin will stop items from being blown up by TNT, Crystals, Anchors, Lightning etc. Essentially any explosion will now no long delete items.
+This plugin will stop items from being blown up by TNT, Crystals, Anchors, Lightning etc. Essentially any explosion will now no longer delete items.
 
 Could be used for servers that want to:
 
